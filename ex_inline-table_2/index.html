@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Table with Input and Delete</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="table-container">
+        <table id="data-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" value="John Doe"></td>
+                    <td><input type="number" value="30"></td>
+                    <td><input type="text" value="New York"></td>
+                    <td><button onclick="deleteRow(this)">Delete</button></td>
+                </tr>
+                <tr>
+                    <td><input type="text" value="Jane Smith"></td>
+                    <td><input type="number" value="25"></td>
+                    <td><input type="text" value="Los Angeles"></td>
+                    <td><button onclick="deleteRow(this)">Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+        <button onclick="addRow()">Add Row</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
