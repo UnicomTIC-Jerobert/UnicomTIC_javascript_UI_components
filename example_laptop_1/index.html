@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laptop Details</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Laptop Details</h1>
+    <button id="openModalBtn">Add Laptop</button>
+    <table id="laptopTable">
+      <thead>
+        <tr>
+          <th>Model Name</th>
+          <th>Brand</th>
+          <th>RAM</th>
+          <th>Processor</th>
+          <th>Screen Size</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="closeBtn">&times;</span>
+        <form id="laptopForm">
+          <div>
+            <label for="modelName">Model Name:</label>
+            <input type="text" id="modelName" name="modelName" required />
+          </div>
+
+          <div>
+            <label for="brand">Brand:</label>
+            <select id="brand" name="brand"></select>
+            <button type="button" id="manageBrandsBtn">Manage Brands</button>
+          </div>
+
+          <div>
+            <label for="ram">RAM:</label>
+            <select id="ram" name="ram"></select>
+            <button type="button" id="manageRamBtn">Manage RAM</button>
+          </div>
+
+          <div>
+            <label for="processor">Processor:</label>
+            <select id="processor" name="processor"></select>
+            <button type="button" id="manageProcessorBtn">
+              Manage Processor
+            </button>
+          </div>
+
+          <div>
+            <label for="screenSize">Screen Size:</label>
+            <select id="screenSize" name="screenSize"></select>
+            <button type="button" id="manageScreenSizeBtn">
+              Manage Screen Size
+            </button>
+          </div>
+
+          <div>
+            <button type="submit">Save</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="manageModal" class="modal">
+      <div class="modal-content">
+        <span class="closeManageBtn">&times;</span>
+        <h2>Manage Items</h2>
+        <input type="text" id="newItem" placeholder="New Item" />
+        <button id="addItemBtn">Add Item</button>
+        <ul id="itemList"></ul>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
