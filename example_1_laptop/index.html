@@ -8,7 +8,9 @@
   </head>
   <body>
     <h1>Laptop Details</h1>
+
     <button id="openModalBtn">Add Laptop</button>
+
     <table id="laptopTable">
       <thead>
         <tr>
@@ -19,12 +21,16 @@
           <th>Screen Size</th>
         </tr>
       </thead>
-      <tbody></tbody>
+      <tbody>
+        <!-- Contents are dynamically genated here -->
+      </tbody>
+   
     </table>
 
     <div id="modal" class="modal">
       <div class="modal-content">
         <span class="closeBtn">&times;</span>
+
         <form id="laptopForm">
           <div>
             <label for="modelName">Model Name:</label>
@@ -72,7 +78,11 @@
         <h2>Manage Items</h2>
         <input type="text" id="newItem" placeholder="New Item" />
         <button id="addItemBtn">Add Item</button>
-        <ul id="itemList"></ul>
+
+        
+        <ul id="itemList">
+          <!-- Place holder for List  -->
+        </ul>
       </div>
     </div>
 
