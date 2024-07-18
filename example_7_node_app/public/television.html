@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Television Details Management</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Television Details Management</h1>
+    <button id="openModalBtn">Add New Television</button>
+
+    <table id="deviceTable">
+      <thead>
+        <tr>
+          <th>Model Name</th>
+          <th>Brand</th>
+          <th>Screen Size</th>
+          <th>Resolution</th>
+          <th>Smart TV</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="closeBtn">&times;</span>
+        <form id="deviceForm">
+          <div class="form-group">
+            <label for="modelName">Model Name</label>
+            <input type="text" id="modelName" required />
+          </div>
+          <div class="form-group">
+            <label for="brand">Brand</label>
+            <select id="brand"></select>
+            <button type="button" id="manageBrandsBtn">Manage</button>
+          </div>
+          <div class="form-group">
+            <label for="screenSize">Screen Size</label>
+            <select id="screenSize"></select>
+            <button type="button" id="manageScreenSizeBtn">Manage</button>
+          </div>
+          <div class="form-group">
+            <label for="resolution">Resolution</label>
+            <select id="resolution"></select>
+            <button type="button" id="manageResolutionBtn">Manage</button>
+          </div>
+          <div class="form-group">
+            <label for="smartTv">Smart TV</label>
+            <select id="smartTv">
+              <option value="Yes">Yes</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+          <button type="submit">Add Television</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/televisionScript.js"></script>
+  </body>
+</html>

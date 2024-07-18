@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Laptop Details Management</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Laptop Details Management</h1>
+    <button id="openModalBtn">Add New Laptop</button>
+
+    <table id="deviceTable">
+      <thead>
+        <tr>
+          <th>Model Name</th>
+          <th>Brand</th>
+          <th>RAM</th>
+          <th>Processor</th>
+          <th>Screen Size</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="closeBtn">&times;</span>
+        <form id="deviceForm">
+          <div class="form-group">
+            <label for="modelName">Model Name</label>
+            <input type="text" id="modelName" required />
+          </div>
+          <div class="form-group">
+            <label for="brand">Brand</label>
+            <select id="brand"></select>
+            <button type="button" id="manageBrandsBtn">Manage</button>
+          </div>
+          <div class="form-group">
+            <label for="ram">RAM</label>
+            <select id="ram"></select>
+            <button type="button" id="manageRamBtn">Manage</button>
+          </div>
+          <div class="form-group">
+            <label for="processor">Processor</label>
+            <select id="processor"></select>
+            <button type="button" id="manageProcessorBtn">Manage</button>
+          </div>
+          <div class="form-group">
+            <label for="screenSize">Screen Size</label>
+            <select id="screenSize"></select>
+            <button type="button" id="manageScreenSizeBtn">Manage</button>
+          </div>
+          <button type="submit">Add Laptop</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="laptopScript.js"></script>
+  </body>
+</html>
