@@ -1,0 +1,31 @@
+{
+  "content": [
+    {
+      "title": "Introduction to Java",
+      "note": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible...",
+      "quiz": [
+        {
+          "question": "What is the main method signature in Java?",
+          "options": [
+            "public static void main(String[] args)",
+            "public void main(String[] args)",
+            "public static main(String[] args)",
+            "static void main(String[] args)"
+          ],
+          "answer": "public static void main(String[] args)"
+        }
+      ]
+    },
+    {
+      "title": "Variables and Data Types",
+      "note": "In Java, there are different types of variables, for example, int, char, float, etc...",
+      "quiz": [
+        {
+          "question": "Which data type is used to create a variable that should store text?",
+          "options": ["String", "myString", "Txt", "text"],
+          "answer": "String"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes and Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="content" class="content"></div>
+      <div class="questions">
+        <form id="quizForm">
+          <!-- Questions will be dynamically added here -->
+          <button type="button" class="submit-btn" onclick="submitQuiz()">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Modal Window -->
+    <div id="resultModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <p id="resultText"></p>
+        <button type="button" onclick="retakeQuiz()">Retake Quiz</button>
+      </div>
+    </div>
+
+    <script src="notes_quiz.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+    "questions": [
+        {
+            "question": "What is the main method signature in Java?",
+            "options": [
+                "public static void main(String[] args)",
+                "public void main(String[] args)",
+                "public static main(String[] args)",
+                "static void main(String[] args)"
+            ],
+            "answer": "public static void main(String[] args)"
+        },
+        {
+            "question": "Which data type is used to create a variable that should store text?",
+            "options": [
+                "String",
+                "myString",
+                "Txt",
+                "text"
+            ],
+            "answer": "String"
+        }
+    ]
+}

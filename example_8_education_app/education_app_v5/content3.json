@@ -1,0 +1,64 @@
+{
+  "quiz": [
+    {
+      "question": "Which statement is used to test a condition in Java?",
+      "options": ["for", "while", "if", "switch"],
+      "answer": "if"
+    },
+    {
+      "question": "Which loop executes at least once even if the condition is false?",
+      "options": ["for", "while", "do-while", "none"],
+      "answer": "do-while"
+    },
+    {
+      "question": "Which statement is used to execute one block of code among multiple options?",
+      "options": ["if-else", "switch", "for", "while"],
+      "answer": "switch"
+    },
+    {
+      "question": "Which loop is used to iterate over a range of values?",
+      "options": ["for", "while", "do-while", "if"],
+      "answer": "for"
+    },
+    {
+      "question": "Which statement is used to break out of a loop?",
+      "options": ["break", "continue", "return", "exit"],
+      "answer": "break"
+    },
+    {
+      "question": "Which statement skips the current iteration of a loop and proceeds to the next iteration?",
+      "options": ["break", "continue", "return", "exit"],
+      "answer": "continue"
+    },
+    {
+      "question": "What does the if-else statement do?",
+      "options": [
+        "Executes a block of code if a condition is true",
+        "Executes a block of code repeatedly",
+        "Executes one of many code blocks based on a value",
+        "Skips the current iteration of a loop"
+      ],
+      "answer": "Executes a block of code if a condition is true"
+    },
+    {
+      "question": "Which keyword is used to terminate a loop immediately?",
+      "options": ["break", "continue", "return", "exit"],
+      "answer": "break"
+    },
+    {
+      "question": "What does the while loop do?",
+      "options": [
+        "Executes a block of code if a condition is true",
+        "Executes a block of code repeatedly",
+        "Executes one of many code blocks based on a value",
+        "Skips the current iteration of a loop"
+      ],
+      "answer": "Executes a block of code repeatedly"
+    },
+    {
+      "question": "Which statement allows you to select one of many code blocks to be executed based on a value?",
+      "options": ["if-else", "switch", "for", "while"],
+      "answer": "switch"
+    }
+  ]
+}

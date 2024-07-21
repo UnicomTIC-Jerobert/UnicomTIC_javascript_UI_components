@@ -1,0 +1,12 @@
+{
+    "notes": [
+        {
+            "title": "Introduction to Java",
+            "content": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible..."
+        },
+        {
+            "title": "Variables and Data Types",
+            "content": "In Java, there are different types of variables, for example, int, char, float, etc..."
+        }
+    ]
+}

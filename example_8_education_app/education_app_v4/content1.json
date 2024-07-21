@@ -1,0 +1,104 @@
+{
+  "quiz": [
+    {
+      "question": "Which company originally developed Java?",
+      "options": [
+        "Microsoft",
+        "Sun Microsystems",
+        "Apple",
+        "Google"
+      ],
+      "answer": "Sun Microsystems"
+    },
+    {
+      "question": "What is the main method signature in Java?",
+      "options": [
+        "public static void main(String[] args)",
+        "public void main(String[] args)",
+        "public static main(String[] args)",
+        "static void main(String[] args)"
+      ],
+      "answer": "public static void main(String[] args)"
+    },
+    {
+      "question": "What is the correct syntax for a single-line comment in Java?",
+      "options": [
+        "// This is a comment",
+        "# This is a comment",
+        "<!-- This is a comment -->",
+        "/* This is a comment */"
+      ],
+      "answer": "// This is a comment"
+    },
+    {
+      "question": "What does JVM stand for?",
+      "options": [
+        "Java Virtual Machine",
+        "Java Verified Manager",
+        "Java Variable Method",
+        "Java Virtual Memory"
+      ],
+      "answer": "Java Virtual Machine"
+    },
+    {
+      "question": "Which data type is used to create a variable that should store text?",
+      "options": [
+        "String",
+        "myString",
+        "Txt",
+        "text"
+      ],
+      "answer": "String"
+    },
+    {
+      "question": "Which keyword is used to define a constant in Java?",
+      "options": [
+        "constant",
+        "final",
+        "static",
+        "const"
+      ],
+      "answer": "final"
+    },
+    {
+      "question": "Which Java keyword is used to explicitly allocate memory?",
+      "options": [
+        "alloc",
+        "new",
+        "malloc",
+        "allocate"
+      ],
+      "answer": "new"
+    },
+    {
+      "question": "What is the output of 'System.out.println(1 + \"2\");' in Java?",
+      "options": [
+        "3",
+        "12",
+        "1",
+        "2"
+      ],
+      "answer": "12"
+    },
+    {
+      "question": "Which of the following is not a Java feature?",
+      "options": [
+        "Object-oriented",
+        "Use of pointers",
+        "Portable",
+        "Dynamic"
+      ],
+      "answer": "Use of pointers"
+    },
+    {
+      "question": "What is the purpose of Java bytecode?",
+      "options": [
+        "To optimize memory usage",
+        "To make Java programs more efficient",
+        "To provide platform independence",
+        "To simplify debugging"
+      ],
+      "answer": "To provide platform independence"
+    }
+  ]
+}

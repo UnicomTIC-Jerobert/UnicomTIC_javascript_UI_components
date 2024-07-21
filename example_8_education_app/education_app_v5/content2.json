@@ -1,0 +1,54 @@
+{
+  "quiz": [
+    {
+      "question": "Which of the following is a primitive data type in Java?",
+      "options": ["String", "Array", "int", "Class"],
+      "answer": "int"
+    },
+    {
+      "question": "What is the size of a byte data type in Java?",
+      "options": ["8 bits", "16 bits", "32 bits", "64 bits"],
+      "answer": "8 bits"
+    },
+    {
+      "question": "Which data type is used to store true or false values?",
+      "options": ["int", "char", "boolean", "float"],
+      "answer": "boolean"
+    },
+    {
+      "question": "Which of the following is not a non-primitive data type?",
+      "options": ["Class", "Array", "Interface", "char"],
+      "answer": "char"
+    },
+    {
+      "question": "What is the default value of a boolean variable in Java?",
+      "options": ["true", "false", "0", "1"],
+      "answer": "false"
+    },
+    {
+      "question": "Which of the following data types can store whole numbers?",
+      "options": ["float", "double", "int", "boolean"],
+      "answer": "int"
+    },
+    {
+      "question": "Which data type is used to store a single character?",
+      "options": ["int", "char", "boolean", "String"],
+      "answer": "char"
+    },
+    {
+      "question": "How many bytes are used to store a float value?",
+      "options": ["2", "4", "8", "16"],
+      "answer": "4"
+    },
+    {
+      "question": "Which keyword is used to define a non-primitive data type in Java?",
+      "options": ["int", "class", "float", "boolean"],
+      "answer": "class"
+    },
+    {
+      "question": "What is the default value of a String variable in Java?",
+      "options": ["null", "\"\"", "0", "undefined"],
+      "answer": "null"
+    }
+  ]
+}
